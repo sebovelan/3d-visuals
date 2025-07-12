@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "sebasanderson.com",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "destination": "index.html",
+        "source": "index.html"
+      }
+    ]
+  }
+}
