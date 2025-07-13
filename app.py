@@ -23,4 +23,4 @@ def upload_audio():
     return jsonify(result)
 
 if __name__ == "__main__":
-    app.run(debug=False, host='https://seshbash-105938148288.europe-west1.run.app', port=int(os.environ.get('PORT', 8080)))
+    app.run(debug=False, host='https://project6.sebastianderson.com', port=int(os.environ.get('PORT', 8080)))
